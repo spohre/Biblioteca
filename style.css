@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    line-height: 1.5; 
+}
+
+.firstSection {
+    background: linear-gradient(135deg, #5e9640, #1a3900);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.margins {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 92%;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 48px; 
+    line-height: 40px; 
+    margin-bottom: 24px;
+}
+
+.slogan {
+    line-height: 1.5;
+}
+
+.secondSection {
+    padding-top: 3rem; 
+    padding-bottom: 3rem; 
+    background-color: white;
+}
+
+.titles {
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 32px; 
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsivo */
+    gap: 1rem;
+}
+
+.frame {
+    text-align: center;
+    padding: 20px; /* Alterado para px */
+    background-color: rgba(249, 250, 251, 0.815);
+    border-radius: 8px; /* Alterado para px */
+}
+
+.photo {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 12px; /* Alterado para px */
+}
+
+.fitphoto {
+    object-fit: cover;
+    width: 100%; /* Para garantir que a imagem se ajuste ao contêiner */
+    height: auto; /* Para manter a proporção */
+}
+
+.fontMedium {
+    font-weight: 500;
+    font-size: 18px; /* Alterado para px */
+}
+
+.thirdSection {
+    background-color: rgba(249, 250, 251, 0.815);
+    padding-top: 3rem; /* Pode ser mantido em rem para responsividade */
+    padding-bottom: 3rem; /* Pode ser mantido em rem para responsividade */
+}
+
+.textAlign-Padding {
+    text-align: center;
+    padding: 20px; /* Alterado para px */
+}
+
+.iconAlign {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px; /* Mantido em px */
+    height: 60px; /* Mantido em px */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.iconCustomize {
+    color: rgb(37, 99, 235);
+    font-size: 24px; /* Alterado para px */
+}
+
+.fontSemibold {
+    font-weight: 600;
+    font-size: 16px; /* Mantido em px */
+    margin-bottom: 0.5rem;
+}
+
+.text-gray {
+    color: rgb(75, 85, 99);
+    margin: 0;
+    padding: 0;
+}
+
+.fourthSection {
+    padding-top: 3rem; /* Pode ser mantido em rem para responsividade */
+    padding-bottom: 3rem; /* Pode ser mantido em rem para responsividade */
+    background-color: rgb(255, 255, 255);
+}
+
+.overflow {
+    overflow-x: auto;
+}
+
+.table {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px; /* Alterado para px */
+    overflow: hidden;
+    min-width: 100%;
+    border-color: grey;
+    border-collapse: collapse;
+}
+
+.thead {
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 41, 55);
+}
+
+.theadText {
+    padding: 12px; /* Alterado para px */
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.tbody {
+    color: rgb(55, 65, 81);
+}
+
+.tbodyText {
+    padding: 12px; /* Alterado para px */
+    border-color: rgb(229, 231, 235);
+    border-bottom-width: 1px;
+}
+
+.green {
+    font-weight: 500;
+    color: rgb(22, 163, 74);
+}
+
+#disclaimer {
+    font-size: 14px; /* Alterado para px */
+    line-height: 1.5; /* Ajustado para uma linha mais legível */
+    margin-top: 1rem;
+}
+
+.fifthSection {
+    padding-top: 3rem; /* Pode ser mantido em rem para responsividade */
+    padding-bottom: 3rem; /* Pode ser mantido em rem para responsividade */
+    background-color: rgb(249, 250, 251);
+}
+
+.button {
+    gap: 1.5rem;
+    display: grid;
+}
+
+.buttonContent {
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+    border-radius: 8px; /* Alterado para px */
+    background-color: rgb(255, 255, 255);
+    padding: 12px; /* Alterado para px */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#youtube {
+    color: rgb(37, 99, 235);
+    font-size: 32px; /* Alterado para px */
+}
+
+.sixthSection {
+    padding-top: 3rem; /* Pode ser mantido em rem para responsividade */
+    padding-bottom: 3rem; /* Pode ser mantido em rem para responsividade */
+    background-color: rgb(255, 255, 255);
+}
+
+.contactForm {
+    background-color: rgb(249, 250, 251);
+    border-radius: 8px; /* Alterado para px */
+    padding: 20px; /* Alterado para px */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.formLabel {
+    margin-bottom: 0.5rem;
+    display: block;
+    color: rgb(55, 65, 81);
+}
+
+.formInputArea {
+    padding: 10px; /* Alterado para px */
+    border-color: rgb(224, 217, 217);
+    border-width: 1px;
+    border-radius: 4px; /* Alterado para px */
+    width: 100%;
+}
+
+.squish {
+    max-width: 672px; /* Alterado para px */
+}
+
+.formSubmit {
+    color: rgb(255, 255, 255);
+    padding: 10px; /* Alterado para px */
+    background-color: rgb(37, 99, 235);
+    border-radius: 4px; /* Alterado para px */
+    width: 100%;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    padding-top: 20px; /* Alterado para px */
+    padding-bottom: 20px; /* Alterado para px */
+    background-color: rgb(31, 41, 55);
+}
+
+.footerAlign {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footerText {
+    color: rgb(190, 190, 190);
+    margin-left: 16px; /* Alterado para px */
+}
+
+.footerText:hover {
+    color: white;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #000000;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    }
+
+    .titulo {
+        font-size: 36px; /* Ajuste para telas menores */
+    }
+
+    .fontMedium {
+        font-size: 16px; /* Ajuste para telas menores */
+    }
+
+    .fontSemibold {
+        font-size: 14px; /* Ajuste para telas menores */
+    }
+
+    .formInputArea {
+        padding: 8px; /* Ajuste para telas menores */
+    }
+
+        .formSubmit {
+            padding: 8px; /* Ajuste para telas menores */
+        }
+    }
